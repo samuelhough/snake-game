@@ -2,6 +2,8 @@
 
 Testing out react.js by making a version of snake in the browser.  It does not currently use Flux pattern though.
 
+    $ npm install
+    $ bower install
     $ gulp build
     $ npm start
 
