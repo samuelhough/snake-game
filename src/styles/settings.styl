@@ -1,0 +1,31 @@
+$headerHeight = 64px
+$darkblue = #225378 
+$teal = #1595A3 
+$lightblue = #ACF0F2 
+$skintan = #F2FFE3 
+$sunburn = #EB7F00 
+
+body
+  font-family: $fonts
+  background-color: $darkblue
+
+
+.nested-child
+  padding-left: 0px
+  padding-right: 0px
+  
+
+.visible-xxs
+  display: none
+
+.hidden-xxs
+  display: block
+  
+@media (max-width: 480px)
+  .visible-xxs
+    display: block !important
+    
+  .hidden-xxs
+    display: none !important
+    
+
